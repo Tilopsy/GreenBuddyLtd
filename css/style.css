@@ -8,7 +8,7 @@ body {
 }
 
 #header-bg {
-    background-image: url("../images/bg_1.jpg");
+    background-image: url("../images/beautifulviewaprtmts.jpg");
     background-position: center;
     background-size: cover;
     padding: 2rem 15rem;
@@ -80,8 +80,8 @@ ul {
 }
 
 header {
-    background-color: #FF5A5F;
-    color: white;
+    background-color: ;
+    color: black;
     padding: 20px 0;
     text-align: center;
 }
@@ -157,7 +157,11 @@ nav ul li ul li a {
     margin-bottom: 5px;
     margin-left: 0;
     margin-right: 0;
+    padding: 5px;
+    padding-top: 5px;
+    color: #FF5A5F;
 }
+
 
 #about-section h1 {
     font-size: large;
@@ -183,10 +187,33 @@ nav ul li ul li a {
     padding: 2rem;
     margin: 2rem;
     background-color: gainsboro;
-    color: #FF5A5F;
+    color: black;
 }
 
 #ul-list h4 {
     color: white;
 }
 
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    }
