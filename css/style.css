@@ -8,7 +8,7 @@ body {
 }
 
 #header-bg {
-    background-image: url("../images/apartment-8310788_1280.jpg");
+    background-image: url("../images/video-bg.jpg");
     background-position: center;
     background-size: cover;
     padding: 2rem 15rem;
@@ -19,7 +19,7 @@ body {
 
 #logo {
     text-decoration: none;
-    color: azure;
+    color: greenyellow;
     font-size: 30pt;
     font-weight: bolder;
     font-family: cursive;
@@ -45,14 +45,31 @@ body {
 .nav-item {
     text-decoration: none;
     font-weight: 300;
-    color: white;
+    color: gainsboro;
     font-weight: bolder;
-
+   
+#nav-links {
+        display: flex;
+        font-size: 20px;
+        justify-content: space-between;
+    }
+    
+    #ul-list {
+        display: flex;
+        list-style: none;
+        gap: 30px;
+    }
+    
+    .nav-item {
+        text-decoration: none;
+        color: brown;
+    }
 }
 
 .btn {
     background-color: transparent;
-    padding: 2px 26px;
+    margin-top: 10px;
+    padding: 10px 26px;
     border-radius: 2rem;
     border: 2px solid white;
 }
@@ -97,10 +114,6 @@ nav a {
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
-}
-
-nav a:hover {
-    background-color: #575757;
 }
 
 .container {
@@ -166,11 +179,11 @@ nav ul li ul li a {
 #about-section h1 {
     font-size: large;
     color: #FF5A5F;
-    padding-right: 10cm;
+    padding-left: 30px;
 }
 
 #background-image {
-    background-image: url("../images/furnishedapartmts.jpg");
+    background-image: url("../images/h1_hero.jpg");
     background-color: transparent;
     flex: ;
     background-position: ;
@@ -192,6 +205,7 @@ nav ul li ul li a {
 
 #ul-list h4 {
     color: white;
+    padding-right: 30px;
 }
 
 .footer {
